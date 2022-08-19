@@ -43,6 +43,12 @@ export default {
     'primevue/nuxt',
   ],
 
+primevue: {
+    theme: 'saga-blue',
+    ripple: true,
+    components: ['Menubar', 'Sidebar', 'InputText','Button', 'Toast'],
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     // https://github.com/primefaces/primevue/issues/844
